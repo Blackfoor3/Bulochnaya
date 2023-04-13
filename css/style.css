@@ -1,0 +1,175 @@
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Rob!';
+	src: local('Roboto');
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: 'Rob-big';
+	src: local('Roboto');
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+	font-family: 'Phil';
+	src: local('Roboto');
+	src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+html{
+	font-family: 'Rob!';
+}
+
+body {
+  background-color: #FFE2B0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul{
+	font-family: 'Rob!';
+	font-weight: 700;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+}
+
+li{
+  display: inline;
+  margin-right: 100px;
+}
+
+li:last-child{
+  margin-right: 0px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+ nav  {
+  margin-bottom: 20px;
+ }
+
+ .first-section {
+  height: 640px;
+  background-image: url(../img/01-Картинка-фона.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+ }
+
+ .table_1 {
+	width: 420px;
+	height: 190px;
+	background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8)100% );
+	position: absolute;
+	left: 50%;
+	top: 54%;
+	padding-top: 15px;
+ }  
+
+ .table_1_border {
+	height: 160px;
+	width: 390px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-left: 28px;
+	padding-right: 28px;
+	text-align: left;
+ }
+
+ .text_1 {
+	font-family: 'Phil';
+	font-size: 36px;
+	margin: 0;
+	margin-bottom: 9px;
+ }
+
+ .text_2{
+	font-family: 'Rob!';
+	font-weight: 400;
+	font-size: 12px;
+	margin: 0;
+ }
+
+.photo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.photo img{
+	margin-right: 76px;
+}
+
+.photo img:last-child {
+	margin-right: 0px;
+}
+
+.second-text-class {
+	font-family: 'Phil';
+	font-size: 96px;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.second-text-class_span{
+	color: #f15b40;
+	
+}
+
+.second-text-class_p{
+	font-family: 'Rob!';
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.second-section{
+	margin-bottom: 20px;
+}
+
+.thirst-section-title{
+	font-family: 'Phil';
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+}
+
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+
+.thirst-section{
+	margin-bottom: 20px;
+}
+
+hr{
+	border:none;
+	border-top: 1px solid #999999;
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+
+footer{
+	height: 80px;
+}
+
+h1{
+	font-family: 'Rob!';
+}
